@@ -98,9 +98,8 @@
         <header class="header">
             <h1>Registro</h1>
             <p>Crea tu cuenta para continuar</p>
-        </header>
-        <section class="register-form">
-            <form id="registroForm" method="POST" action="/registro">
+        </header>        <section class="register-form">
+            <form id="registroForm" method="POST" action="/Registro/registro">
                 <div class="form-group">
                     <label for="nombre">Nombre</label>
                     <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>

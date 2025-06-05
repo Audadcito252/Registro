@@ -1,6 +1,4 @@
 <?php
-// Simplifica el enrutamiento para que funcione inicialmente
-require_once __DIR__ . '/Controlador/RegistroController.php';
-
-$controller = new RegistroController();
-$controller->mostrarFormulario();
+// Punto de entrada a la aplicación
+// Cargar el enrutador
+require_once __DIR__ . '/routes/web.php';
